@@ -124,11 +124,11 @@ export default function ProjectPage() {
                             <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 transition-opacity">
                                 <Terminal size={120} />
                             </div>
-                            <h2 className="text-2xl lg:text-4xl font-bold text-white mb-8 flex items-center gap-4 tracking-tighter">
+                            <h2 className="text-xl lg:text-2xl font-bold text-white mb-8 flex items-center gap-4">
                                 <span className="w-12 h-[1px] bg-blue-500" />
                                 Mission Overview
                             </h2>
-                            <div className="text-slate-400 text-base lg:text-[1.1rem] leading-relaxed font-light space-y-6">
+                            <div className="text-slate-500 text-[10px] lg:text-[12px] leading-normal font-light space-y-4 opacity-80">
                                 {project.description.split('. ').map((para, i) => (para && (
                                     <p key={i}>{para}.</p>
                                 )))}

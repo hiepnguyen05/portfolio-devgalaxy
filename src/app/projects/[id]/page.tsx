@@ -145,10 +145,10 @@ export default function ProjectPage() {
                             className="space-y-6"
                         >
                             <div className="flex items-center gap-4">
-                                <h3 className="font-mono text-[10px] tracking-[0.3em] uppercase text-blue-500/60 font-bold">Mission Overview</h3>
+                                <h3 className="font-mono text-[10px] tracking-[0.2em] uppercase text-blue-500/60 font-bold">Mission Overview</h3>
                                 <div className="h-[1px] flex-grow bg-gradient-to-r from-blue-500/20 to-transparent" />
                             </div>
-                            <p className="text-2xl lg:text-3xl font-light text-white leading-relaxed">
+                            <p className="text-slate-300 leading-relaxed font-light">
                                 {project.description}
                             </p>
                         </motion.div>
